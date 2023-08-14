@@ -1,0 +1,1 @@
+. "/home/johnny/Documents/cmake_install_learn/liba/build/conanbuildenv-release-x86_64.sh"

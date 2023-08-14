@@ -1,0 +1,13 @@
+/home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles/install/strip.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles/install/local.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles/install.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles/list_install_components.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles/rebuild_cache.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles/edit_cache.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/install/strip.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/install/local.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/install.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/list_install_components.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/rebuild_cache.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/edit_cache.dir
+/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/a.dir

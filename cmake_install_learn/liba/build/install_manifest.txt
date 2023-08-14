@@ -1,0 +1,6 @@
+/home/johnny/Documents/cmake_install_learn/install/lib/liba.a
+/home/johnny/Documents/cmake_install_learn/install/include/liba.h
+/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aTargets.cmake
+/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aTargets-release.cmake
+/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aConfig.cmake
+/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aConfigVersion.cmake
