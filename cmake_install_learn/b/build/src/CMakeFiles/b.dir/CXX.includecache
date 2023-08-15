@@ -6,3 +6,9 @@
 
 #IncludeRegexTransform: 
 
+/home/johnny/Documents/cmake_learn/cmake_install_learn/b/src/main.cpp
+liba.h
+/home/johnny/Documents/cmake_learn/cmake_install_learn/b/src/liba.h
+
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/include/liba.h
+

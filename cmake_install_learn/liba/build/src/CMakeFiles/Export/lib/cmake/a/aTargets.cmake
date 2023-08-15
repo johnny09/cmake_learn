@@ -51,11 +51,11 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target a::a
-add_library(a::a STATIC IMPORTED)
+add_library(a::a SHARED IMPORTED)
 
 set_target_properties(a::a PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:spdlog::spdlog>"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "spdlog::spdlog"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

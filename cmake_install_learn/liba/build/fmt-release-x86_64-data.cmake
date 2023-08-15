@@ -7,7 +7,7 @@ set(fmt_FIND_DEPENDENCY_NAMES "")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(fmt_PACKAGE_FOLDER_RELEASE "/home/johnny/.conan2/p/b/fmt9bc924876191e/p")
+set(fmt_PACKAGE_FOLDER_RELEASE "/home/johnny/.conan2/p/b/fmt31f4c2872c850/p")
 set(fmt_BUILD_MODULES_PATHS_RELEASE )
 
 

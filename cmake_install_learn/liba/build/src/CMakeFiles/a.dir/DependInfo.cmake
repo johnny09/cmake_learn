@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/johnny/Documents/cmake_install_learn/liba/src/liba.cpp" "/home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/a.dir/liba.cpp.o"
+  "/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/src/liba.cpp" "/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/src/CMakeFiles/a.dir/liba.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,13 +12,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "SPDLOG_COMPILED_LIB"
   "SPDLOG_FMT_EXTERNAL"
+  "a_EXPORTS"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/home/johnny/.conan2/p/b/spdlo86fb3ec455da4/p/include"
-  "/home/johnny/.conan2/p/b/fmt9bc924876191e/p/include"
+  "/home/johnny/.conan2/p/b/spdlob8696b90569ae/p/include"
+  "/home/johnny/.conan2/p/b/fmt31f4c2872c850/p/include"
   )
 
 # Targets to which this target links.

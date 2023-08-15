@@ -9,7 +9,7 @@ set(fmt_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(spdlog_PACKAGE_FOLDER_RELEASE "/home/johnny/.conan2/p/b/spdlo86fb3ec455da4/p")
+set(spdlog_PACKAGE_FOLDER_RELEASE "/home/johnny/.conan2/p/b/spdlob8696b90569ae/p")
 set(spdlog_BUILD_MODULES_PATHS_RELEASE )
 
 

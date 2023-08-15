@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/home/johnny/Documents/cmake_install_learn/liba/build/CMakePresets.json"
+        "/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/CMakePresets.json"
     ]
 }

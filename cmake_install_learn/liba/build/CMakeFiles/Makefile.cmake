@@ -23,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "spdlog-config.cmake"
   "spdlog-release-x86_64-data.cmake"
   "spdlogTargets.cmake"
+  "../cmake/aConfig.cmake"
   "../src/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"

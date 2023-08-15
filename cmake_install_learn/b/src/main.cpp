@@ -1,3 +1,3 @@
 #include "liba.h"
 
-int main() { funca(); }
+int main() { print(); }

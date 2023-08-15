@@ -1,4 +1,4 @@
-# Install script for directory: /home/johnny/Documents/cmake_install_learn/b/src
+# Install script for directory: /home/johnny/Documents/cmake_learn/cmake_install_learn/b/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

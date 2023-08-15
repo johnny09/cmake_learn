@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/b.dir/main.cpp.o  -o b  -la 
+/usr/bin/c++     CMakeFiles/b.dir/main.cpp.o  -o b  -Wl,-rpath,/home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib /home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib/liba.so /home/johnny/Downloads/spdlog_install/lib/libspdlog.a -lpthread 

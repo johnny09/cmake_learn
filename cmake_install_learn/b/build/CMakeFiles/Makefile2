@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/johnny/Documents/cmake_install_learn/b
+CMAKE_SOURCE_DIR = /home/johnny/Documents/cmake_learn/cmake_install_learn/b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/johnny/Documents/cmake_install_learn/b/build
+CMAKE_BINARY_DIR = /home/johnny/Documents/cmake_learn/cmake_install_learn/b/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -92,14 +92,14 @@ src/clean: src/CMakeFiles/b.dir/clean
 src/CMakeFiles/b.dir/all:
 	$(MAKE) -f src/CMakeFiles/b.dir/build.make src/CMakeFiles/b.dir/depend
 	$(MAKE) -f src/CMakeFiles/b.dir/build.make src/CMakeFiles/b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johnny/Documents/cmake_install_learn/b/build/CMakeFiles --progress-num=1,2 "Built target b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johnny/Documents/cmake_learn/cmake_install_learn/b/build/CMakeFiles --progress-num=1,2 "Built target b"
 .PHONY : src/CMakeFiles/b.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/b.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_install_learn/b/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_learn/cmake_install_learn/b/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/b.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_install_learn/b/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_learn/cmake_install_learn/b/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/b.dir/rule
 
 # Convenience name for target.

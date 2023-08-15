@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/johnny/Documents/cmake_install_learn/liba
+CMAKE_SOURCE_DIR = /home/johnny/Documents/cmake_learn/cmake_install_learn/liba
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/johnny/Documents/cmake_install_learn/liba/build
+CMAKE_BINARY_DIR = /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ install/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Devel\" \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles /home/johnny/Documents/cmake_install_learn/liba/build/src/CMakeFiles/progress.marks
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_install_learn/liba/build/CMakeFiles 0
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/CMakeFiles /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/src/CMakeFiles/progress.marks
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/a.dir/rule:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/a.dir/rule
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/a.dir/rule
 .PHONY : src/CMakeFiles/a.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ a : src/CMakeFiles/a.dir/rule
 
 # fast build rule for target.
 a/fast:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/build
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/build
 .PHONY : a/fast
 
 liba.o: liba.cpp.o
@@ -177,7 +177,7 @@ liba.o: liba.cpp.o
 
 # target to build an object file
 liba.cpp.o:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/liba.cpp.o
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/liba.cpp.o
 .PHONY : liba.cpp.o
 
 liba.i: liba.cpp.i
@@ -186,7 +186,7 @@ liba.i: liba.cpp.i
 
 # target to preprocess a source file
 liba.cpp.i:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/liba.cpp.i
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/liba.cpp.i
 .PHONY : liba.cpp.i
 
 liba.s: liba.cpp.s
@@ -195,7 +195,7 @@ liba.s: liba.cpp.s
 
 # target to generate assembly for a file
 liba.cpp.s:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/liba.cpp.s
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(MAKE) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/liba.cpp.s
 .PHONY : liba.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/johnny/Documents/cmake_install_learn/liba/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

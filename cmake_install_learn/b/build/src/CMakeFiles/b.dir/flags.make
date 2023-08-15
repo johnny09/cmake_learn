@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /home/johnny/Documents/cmake_learn/cmake_install_learn/install/include -isystem /home/johnny/Downloads/spdlog_install/include 
 

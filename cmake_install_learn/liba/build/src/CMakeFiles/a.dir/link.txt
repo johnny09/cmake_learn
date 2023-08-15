@@ -1,2 +1,1 @@
-/usr/bin/ar qc liba.a  CMakeFiles/a.dir/liba.cpp.o
-/usr/bin/ranlib liba.a
+/usr/bin/c++ -fPIC -m64 -O3 -DNDEBUG -m64 -shared -Wl,-soname,liba.so -o liba.so CMakeFiles/a.dir/liba.cpp.o   -L/home/johnny/.conan2/p/b/spdlob8696b90569ae/p/lib  -L/home/johnny/.conan2/p/b/fmt31f4c2872c850/p/lib  -Wl,-rpath,/home/johnny/.conan2/p/b/spdlob8696b90569ae/p/lib:/home/johnny/.conan2/p/b/fmt31f4c2872c850/p/lib: /home/johnny/.conan2/p/b/spdlob8696b90569ae/p/lib/libspdlog.a -lpthread /home/johnny/.conan2/p/b/fmt31f4c2872c850/p/lib/libfmt.a -lm 

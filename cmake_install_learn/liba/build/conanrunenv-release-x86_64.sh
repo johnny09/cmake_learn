@@ -1,4 +1,4 @@
-script_folder="/home/johnny/Documents/cmake_install_learn/liba/build"
+script_folder="/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build"
 echo "echo Restoring environment" > "$script_folder/deactivate_conanrunenv-release-x86_64.sh"
 for v in 
 do

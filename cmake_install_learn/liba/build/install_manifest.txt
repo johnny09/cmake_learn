@@ -1,6 +1,7 @@
-/home/johnny/Documents/cmake_install_learn/install/lib/liba.a
-/home/johnny/Documents/cmake_install_learn/install/include/liba.h
-/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aTargets.cmake
-/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aTargets-release.cmake
-/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aConfig.cmake
-/home/johnny/Documents/cmake_install_learn/install/lib/cmake/a/aConfigVersion.cmake
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib/liba.so
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/include/liba.h
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/include/liba.h
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib/cmake/a/aTargets.cmake
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib/cmake/a/aTargets-release.cmake
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib/cmake/a/aConfig.cmake
+/home/johnny/Documents/cmake_learn/cmake_install_learn/install/lib/cmake/a/aConfigVersion.cmake

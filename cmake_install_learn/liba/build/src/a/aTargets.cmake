@@ -41,55 +41,20 @@ unset(_targetsNotDefined)
 unset(_expectedTargets)
 
 
-# Compute the installation prefix relative to this file.
-get_filename_component(_IMPORT_PREFIX "${CMAKE_CURRENT_LIST_FILE}" PATH)
-get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
-get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
-get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
-if(_IMPORT_PREFIX STREQUAL "/")
-  set(_IMPORT_PREFIX "")
-endif()
-
 # Create imported target a::a
 add_library(a::a SHARED IMPORTED)
 
 set_target_properties(a::a PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/include"
   INTERFACE_LINK_LIBRARIES "spdlog::spdlog"
 )
 
-if(CMAKE_VERSION VERSION_LESS 2.8.12)
-  message(FATAL_ERROR "This file relies on consumers using CMake 2.8.12 or greater.")
-endif()
-
-# Load information for each installed configuration.
-get_filename_component(_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
-file(GLOB CONFIG_FILES "${_DIR}/aTargets-*.cmake")
-foreach(f ${CONFIG_FILES})
-  include(${f})
-endforeach()
-
-# Cleanup temporary variables.
-set(_IMPORT_PREFIX)
-
-# Loop over all imported files and verify that they actually exist
-foreach(target ${_IMPORT_CHECK_TARGETS} )
-  foreach(file ${_IMPORT_CHECK_FILES_FOR_${target}} )
-    if(NOT EXISTS "${file}" )
-      message(FATAL_ERROR "The imported target \"${target}\" references the file
-   \"${file}\"
-but this file does not exist.  Possible reasons include:
-* The file was deleted, renamed, or moved to another location.
-* An install or uninstall procedure did not complete successfully.
-* The installation package was faulty and contained
-   \"${CMAKE_CURRENT_LIST_FILE}\"
-but not all the files it references.
-")
-    endif()
-  endforeach()
-  unset(_IMPORT_CHECK_FILES_FOR_${target})
-endforeach()
-unset(_IMPORT_CHECK_TARGETS)
+# Import target "a::a" for configuration "Release"
+set_property(TARGET a::a APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(a::a PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/src/liba.so"
+  IMPORTED_SONAME_RELEASE "liba.so"
+  )
 
 # This file does not depend on other imported targets which have
 # been exported from the same project but in a separate export set.

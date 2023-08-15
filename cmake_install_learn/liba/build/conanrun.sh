@@ -1,1 +1,1 @@
-. "/home/johnny/Documents/cmake_install_learn/liba/build/conanrunenv-release-x86_64.sh"
+. "/home/johnny/Documents/cmake_learn/cmake_install_learn/liba/build/conanrunenv-release-x86_64.sh"
